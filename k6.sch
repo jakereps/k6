@@ -571,32 +571,14 @@ Connection ~ 2250 1350
 $Comp
 L power:GND #PWR?
 U 1 1 5EBAB22F
-P 1200 2400
-F 0 "#PWR?" H 1200 2150 50  0001 C CNN
-F 1 "GND" H 1205 2227 50  0000 C CNN
-F 2 "" H 1200 2400 50  0001 C CNN
-F 3 "" H 1200 2400 50  0001 C CNN
-	1    1200 2400
+P 1500 2250
+F 0 "#PWR?" H 1500 2000 50  0001 C CNN
+F 1 "GND" H 1505 2077 50  0000 C CNN
+F 2 "" H 1500 2250 50  0001 C CNN
+F 3 "" H 1500 2250 50  0001 C CNN
+	1    1500 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5EBA659A
-P 950 2050
-F 0 "SW?" V 904 2198 50  0000 L CNN
-F 1 "SW_Push" V 995 2198 50  0000 L CNN
-F 2 "" H 950 2250 50  0001 C CNN
-F 3 "~" H 950 2250 50  0001 C CNN
-	1    950  2050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 2300 1200 2400
-Wire Wire Line
-	950  2300 950  2250
-Connection ~ 1200 2300
-Wire Wire Line
-	1200 2300 950  2300
 $Comp
 L Device:C_Small C?
 U 1 1 5EBA72ED
@@ -609,14 +591,71 @@ F 3 "~" H 1500 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  1850 1500 1850
-Wire Wire Line
 	1500 1850 1500 1950
-Wire Wire Line
-	1200 2300 1500 2300
-Wire Wire Line
-	1500 2150 1500 2300
 Connection ~ 1500 1850
 Wire Wire Line
-	1500 1850 1750 1850
+	1500 1850 1650 1850
+Wire Wire Line
+	1650 3350 1750 3350
+Text GLabel 1650 3350 0    50   Input ~ 0
+BOOT0
+Wire Wire Line
+	1350 1850 1500 1850
+Wire Wire Line
+	1500 2250 1500 2150
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J?
+U 1 1 5EC9B818
+P 9550 3900
+F 0 "J?" H 9107 3946 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 9107 3855 50  0000 R CNN
+F 2 "" H 9550 3900 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 9200 2650 50  0001 C CNN
+	1    9550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EC9F1EB
+P 9550 3200
+F 0 "#PWR?" H 9550 3050 50  0001 C CNN
+F 1 "+3.3V" H 9565 3373 50  0000 C CNN
+F 2 "" H 9550 3200 50  0001 C CNN
+F 3 "" H 9550 3200 50  0001 C CNN
+	1    9550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3200 9550 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5ECA1ECD
+P 9500 4700
+F 0 "#PWR?" H 9500 4450 50  0001 C CNN
+F 1 "GND" H 9505 4527 50  0000 C CNN
+F 2 "" H 9500 4700 50  0001 C CNN
+F 3 "" H 9500 4700 50  0001 C CNN
+	1    9500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4700 9450 4700
+Wire Wire Line
+	9450 4700 9450 4500
+Wire Wire Line
+	9550 4500 9550 4700
+Wire Wire Line
+	9550 4700 9500 4700
+Connection ~ 9500 4700
+Text GLabel 10100 3600 2    50   Input ~ 0
+NRST
+Wire Wire Line
+	10100 3600 10050 3600
+Text GLabel 1650 1700 1    50   Input ~ 0
+NRST
+Wire Wire Line
+	1650 1700 1650 1850
+Connection ~ 1650 1850
+Wire Wire Line
+	1650 1850 1750 1850
 $EndSCHEMATC

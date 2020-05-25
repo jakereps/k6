@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keyboard-stuff:CHERRY_MX S1
+L k6-rescue:CHERRY_MX-keyboard-stuff S1
 U 1 1 5ECF56C1
 P 1650 1150
+AR Path="/5ECF56C1" Ref="S1"  Part="1" 
+AR Path="/5EBEA505/5ECF56C1" Ref="S1"  Part="1" 
 F 0 "S1" H 1743 1498 50  0000 C CNN
 F 1 "CHERRY_MX" H 1743 1407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1650 1250 50  0001 C CNN
@@ -25,9 +27,11 @@ F 3 "" H 1650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S4
+L k6-rescue:CHERRY_MX-keyboard-stuff S4
 U 1 1 5ECF5BA1
 P 2350 1150
+AR Path="/5ECF5BA1" Ref="S4"  Part="1" 
+AR Path="/5EBEA505/5ECF5BA1" Ref="S4"  Part="1" 
 F 0 "S4" H 2443 1498 50  0000 C CNN
 F 1 "CHERRY_MX" H 2443 1407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2350 1250 50  0001 C CNN
@@ -36,9 +40,11 @@ F 3 "" H 2350 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S7
+L k6-rescue:CHERRY_MX-keyboard-stuff S7
 U 1 1 5ECF6210
 P 3050 1150
+AR Path="/5ECF6210" Ref="S7"  Part="1" 
+AR Path="/5EBEA505/5ECF6210" Ref="S7"  Part="1" 
 F 0 "S7" H 3143 1498 50  0000 C CNN
 F 1 "CHERRY_MX" H 3143 1407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3050 1250 50  0001 C CNN
@@ -47,9 +53,11 @@ F 3 "" H 3050 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S2
+L k6-rescue:CHERRY_MX-keyboard-stuff S2
 U 1 1 5ECF6801
 P 1650 2150
+AR Path="/5ECF6801" Ref="S2"  Part="1" 
+AR Path="/5EBEA505/5ECF6801" Ref="S2"  Part="1" 
 F 0 "S2" H 1743 2498 50  0000 C CNN
 F 1 "CHERRY_MX" H 1743 2407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1650 2250 50  0001 C CNN
@@ -58,9 +66,11 @@ F 3 "" H 1650 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S5
+L k6-rescue:CHERRY_MX-keyboard-stuff S5
 U 1 1 5ECF6E6B
 P 2350 2150
+AR Path="/5ECF6E6B" Ref="S5"  Part="1" 
+AR Path="/5EBEA505/5ECF6E6B" Ref="S5"  Part="1" 
 F 0 "S5" H 2443 2498 50  0000 C CNN
 F 1 "CHERRY_MX" H 2443 2407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2350 2250 50  0001 C CNN
@@ -69,9 +79,11 @@ F 3 "" H 2350 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S8
+L k6-rescue:CHERRY_MX-keyboard-stuff S8
 U 1 1 5ECF7338
 P 3050 2150
+AR Path="/5ECF7338" Ref="S8"  Part="1" 
+AR Path="/5EBEA505/5ECF7338" Ref="S8"  Part="1" 
 F 0 "S8" H 3143 2498 50  0000 C CNN
 F 1 "CHERRY_MX" H 3143 2407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3050 2250 50  0001 C CNN
@@ -80,9 +92,11 @@ F 3 "" H 3050 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S3
+L k6-rescue:CHERRY_MX-keyboard-stuff S3
 U 1 1 5ECF7BDC
 P 1650 3150
+AR Path="/5ECF7BDC" Ref="S3"  Part="1" 
+AR Path="/5EBEA505/5ECF7BDC" Ref="S3"  Part="1" 
 F 0 "S3" H 1743 3498 50  0000 C CNN
 F 1 "CHERRY_MX" H 1743 3407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1650 3250 50  0001 C CNN
@@ -91,9 +105,11 @@ F 3 "" H 1650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S6
+L k6-rescue:CHERRY_MX-keyboard-stuff S6
 U 1 1 5ECF83E9
 P 2350 3150
+AR Path="/5ECF83E9" Ref="S6"  Part="1" 
+AR Path="/5EBEA505/5ECF83E9" Ref="S6"  Part="1" 
 F 0 "S6" H 2443 3498 50  0000 C CNN
 F 1 "CHERRY_MX" H 2443 3407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2350 3250 50  0001 C CNN
@@ -102,9 +118,11 @@ F 3 "" H 2350 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-stuff:CHERRY_MX S9
+L k6-rescue:CHERRY_MX-keyboard-stuff S9
 U 1 1 5ECF8C8A
 P 3050 3150
+AR Path="/5ECF8C8A" Ref="S9"  Part="1" 
+AR Path="/5EBEA505/5ECF8C8A" Ref="S9"  Part="1" 
 F 0 "S9" H 3143 3498 50  0000 C CNN
 F 1 "CHERRY_MX" H 3143 3407 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3050 3250 50  0001 C CNN

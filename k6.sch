@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F0:STM32F042K6Tx U1
-U 1 1 5EB61287
-P 2250 2550
-F 0 "U1" H 2350 1500 50  0000 C CNN
-F 1 "STM32F042K6T6" H 2600 1600 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 1850 1650 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 2250 2550 50  0001 C CNN
-	1    2250 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 5EB6282B
 P 1900 6200
@@ -508,12 +497,7 @@ F0 "key matrix" 50
 F1 "keymatrix.sch" 50
 $EndSheet
 Wire Wire Line
-	2150 3550 2250 3550
-Wire Wire Line
 	1850 3600 1850 3550
-Connection ~ 2150 3550
-Wire Wire Line
-	1850 3550 2150 3550
 $Comp
 L power:GND #PWR05
 U 1 1 5EBD31D7
@@ -743,11 +727,11 @@ Wire Wire Line
 	1050 2000 1050 2100
 Wire Wire Line
 	1100 1850 1050 1850
-Text GLabel 2850 1850 2    50   Input ~ 0
+Text GLabel 2850 2450 2    50   Input ~ 0
 ROW0
-Text GLabel 2850 1950 2    50   Input ~ 0
+Text GLabel 2850 2550 2    50   Input ~ 0
 ROW1
-Text GLabel 2850 2050 2    50   Input ~ 0
+Text GLabel 2850 2650 2    50   Input ~ 0
 ROW2
 Text GLabel 2850 2150 2    50   Input ~ 0
 COL0
@@ -756,20 +740,11 @@ COL1
 Text GLabel 2850 2350 2    50   Input ~ 0
 COL2
 Wire Wire Line
-	2750 1850 2850 1850
-Wire Wire Line
-	2850 1950 2750 1950
-Wire Wire Line
-	2750 2050 2850 2050
-Wire Wire Line
 	2850 2150 2750 2150
 Wire Wire Line
 	2750 2250 2850 2250
 Wire Wire Line
 	2850 2350 2750 2350
-NoConn ~ 2750 2450
-NoConn ~ 2750 2550
-NoConn ~ 2750 2650
 NoConn ~ 2750 2750
 NoConn ~ 2750 2850
 NoConn ~ 1750 2350
@@ -794,4 +769,29 @@ F 3 "~" H 9150 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5600 3900
+Connection ~ 2150 3550
+Wire Wire Line
+	1850 3550 2150 3550
+Wire Wire Line
+	2150 3550 2250 3550
+$Comp
+L MCU_ST_STM32F0:STM32F042K6Tx U1
+U 1 1 5EB61287
+P 2250 2550
+F 0 "U1" H 2350 1500 50  0000 C CNN
+F 1 "STM32F042K6T6" H 2600 1600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 1850 1650 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2650 2850 2650
+Wire Wire Line
+	2850 2550 2750 2550
+Wire Wire Line
+	2750 2450 2850 2450
+NoConn ~ 2750 1850
+NoConn ~ 2750 1950
+NoConn ~ 2750 2050
 $EndSCHEMATC

@@ -212,54 +212,35 @@ F 3 "~" V 1400 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 1000 1900 2000
-Connection ~ 1900 2000
+	1350 1350 1350 1600
 Wire Wire Line
-	1900 2000 1900 3000
+	2850 1600 2850 1350
 Wire Wire Line
-	2600 1000 2600 2000
-Connection ~ 2600 2000
+	2850 1350 2950 1350
 Wire Wire Line
-	2600 2000 2600 3000
+	1550 2350 1400 2350
 Wire Wire Line
-	3300 1000 3300 2000
-Connection ~ 3300 2000
+	1400 2350 1400 2600
 Wire Wire Line
-	3300 2000 3300 3000
+	2150 2600 2150 2350
 Wire Wire Line
-	1500 1400 1350 1400
+	2150 2350 2250 2350
 Wire Wire Line
-	1350 1400 1350 1600
+	2850 2600 2850 2350
 Wire Wire Line
-	2150 1400 2150 1600
+	2850 2350 2950 2350
 Wire Wire Line
-	2850 1600 2850 1400
+	2850 3650 2850 3350
 Wire Wire Line
-	2850 1400 2900 1400
+	2850 3350 2950 3350
 Wire Wire Line
-	1500 2400 1400 2400
+	2150 3650 2150 3350
 Wire Wire Line
-	1400 2400 1400 2600
+	2150 3350 2250 3350
 Wire Wire Line
-	2150 2600 2150 2400
+	1400 3650 1400 3350
 Wire Wire Line
-	2150 2400 2200 2400
-Wire Wire Line
-	2850 2600 2850 2400
-Wire Wire Line
-	2850 2400 2900 2400
-Wire Wire Line
-	2850 3650 2850 3400
-Wire Wire Line
-	2850 3400 2900 3400
-Wire Wire Line
-	2150 3650 2150 3400
-Wire Wire Line
-	2150 3400 2200 3400
-Wire Wire Line
-	1400 3650 1400 3400
-Wire Wire Line
-	1400 3400 1500 3400
+	1400 3350 1550 3350
 Wire Wire Line
 	2850 1800 2150 1800
 Connection ~ 1350 1800
@@ -284,25 +265,46 @@ Wire Wire Line
 Connection ~ 2150 3850
 Wire Wire Line
 	2150 3850 1400 3850
-Wire Wire Line
-	1900 1000 1900 800 
-Connection ~ 1900 1000
-Wire Wire Line
-	2600 1000 2600 800 
-Connection ~ 2600 1000
-Wire Wire Line
-	3300 1000 3300 800 
-Connection ~ 3300 1000
 Text GLabel 1150 1800 0    50   Input ~ 0
 ROW0
 Text GLabel 1150 2800 0    50   Input ~ 0
 ROW1
 Text GLabel 1150 3850 0    50   Input ~ 0
 ROW2
-Text GLabel 1900 800  1    50   Input ~ 0
+Text GLabel 1850 800  1    50   Input ~ 0
 COL0
-Text GLabel 2600 800  1    50   Input ~ 0
+Text GLabel 2550 800  1    50   Input ~ 0
 COL1
-Text GLabel 3300 800  1    50   Input ~ 0
+Text GLabel 3250 800  1    50   Input ~ 0
 COL2
+Wire Wire Line
+	3250 800  3250 1050
+Connection ~ 3250 1050
+Wire Wire Line
+	3250 1050 3250 2050
+Connection ~ 3250 2050
+Wire Wire Line
+	3250 2050 3250 3050
+Wire Wire Line
+	2150 1350 2250 1350
+Wire Wire Line
+	2150 1350 2150 1600
+Wire Wire Line
+	1350 1350 1550 1350
+Wire Wire Line
+	1850 800  1850 1050
+Wire Wire Line
+	2550 800  2550 1050
+Connection ~ 2550 1050
+Wire Wire Line
+	2550 1050 2550 2050
+Connection ~ 2550 2050
+Wire Wire Line
+	2550 2050 2550 3050
+Connection ~ 1850 1050
+Wire Wire Line
+	1850 1050 1850 2050
+Connection ~ 1850 2050
+Wire Wire Line
+	1850 2050 1850 3050
 $EndSCHEMATC
